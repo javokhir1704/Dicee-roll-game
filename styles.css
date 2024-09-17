@@ -1,0 +1,120 @@
+/* indie-flower-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/indie-flower-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lobster-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lobster-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*To link the fonts locally, follow these steps:
+
+    1)Go to the Goggle Webfonts Helper
+    2)Select styles that you want to apply, like: regular, bold, italic and so on. And then, copy the codes that will be generated after selecting styles
+    3)Download files and zip the files to your font folder
+
+*/
+
+body {
+  background-color:  #393E46;
+}
+
+.container {
+  width:70%;
+  margin:auto;
+  text-align:center
+}
+
+.dice {
+  text-align:center;
+  display: inline-block; /*To be next to the specific element*/
+}
+
+#element {
+  margin:30px;
+  font-family:'Lobster',cursive;
+  text-shadow: 5px 0 #232931; /*The text-shadow property adds shadow to text.CSS syntax: text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
+  
+  Note: To add more than one shadow to the text, add a comma-separated list of shadows.*/
+  font-size:8rem;
+  color:#4ECCA3;
+}
+
+h1 {
+  color:#ffffff;
+  font-size: 2.5rem;
+  font-family:cursive;
+  margin:10px 0px;
+}
+
+p {
+  font-size: 2rem;
+  color:#4ECCA3;
+  font-family:'Lobster', cursive;
+}
+
+img {
+  width:80%;
+}
+
+footer {
+  margin-top:3%;
+  color:#EEEEEE;
+  text-align: center;
+  font-family:'Indie Flower', cursive;
+  font-size: 1.2rem;
+}
+
+a {
+  color:#EEEEEE;
+  text-decoration: none;
+}
+
+.icon {
+  color:rgb(255, 5, 5);
+  padding-right:10px;
+  font-size:50px;
+}
+
+
+@media (max-width:700px) {
+  #element {
+    margin:30px;
+    font-family:'Lobster',cursive;
+    text-shadow: 5px 0 #232931; /*The text-shadow property adds shadow to text.CSS syntax: text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
+    
+    Note: To add more than one shadow to the text, add a comma-separated list of shadows.*/
+    font-size:5rem;
+    color:#4ECCA3;
+  }
+
+  h1 {
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-family:cursive;
+    margin:10px 0px;
+  }
+
+  img {
+    width:50%;
+  }
+
+  p {
+    font-size: 1.7rem;
+    color:#4ECCA3;
+    font-family:'Lobster', cursive;
+
+    margin:10px 0px;
+  }
+
+  
+}
